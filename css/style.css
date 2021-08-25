@@ -17,16 +17,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.home {
-  background: #000;
-}
-
-@media (max-width: 800px) {
-  .home {
-    background: green;
-  }
-}
-
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
