@@ -1,0 +1,2 @@
+*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box}.home{background:#000}@media (max-width: 800px){.home{background:green}}.about{display:-webkit-box;display:-ms-flexbox;display:flex}.contacts{display:-webkit-box;display:-ms-flexbox;display:flex}
+/*# sourceMappingURL=style.min.css.map */
