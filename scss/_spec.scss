@@ -1,6 +1,5 @@
 .spec__container {
   position: relative;
-
   h6 {
     color: $white;
     letter-spacing: 0.5em;
@@ -13,16 +12,13 @@
     top: 45px;
   }
 }
-
 .spec__slide {
   background: url('../img/bd-slide.jpg') center/cover no-repeat;
   padding: 105px 0 95px;
 }
-
 .spec__slide-container {
   @include flex(space-between, center);
 }
-
 .spec__text {
   color: $white;
   text-align: center;
@@ -30,31 +26,25 @@
   max-width: 600px;
   padding-left: 30px;
 }
-
 .spec__img {
   width: 50%;
   max-width: 500px;
   position: relative;
   text-align: right;
-
   .circle {
     left: 0;
     transform: translate(-40%, -50%);
   }
-
   img {
     @include img;
   }
 }
-
 .spec__pagination {
   @include flex(center, center);
-  //position: absolute;
-  position: relative;
+  position: absolute;
   width: 100%;
   bottom: 45px;
   z-index: 2;
-
   .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -63,13 +53,10 @@
     cursor: pointer;
     margin: 0 10px;
     transition: 0.3s;
-
-
     &:hover {
       background: $white;
     }
   }
-
   .swiper-pagination-bullet-active {
     background: $white;
   }
