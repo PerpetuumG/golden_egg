@@ -801,8 +801,78 @@ section p {
   background: #e8c300;
 }
 
-.contacts {
+.events {
+  background: url("../img/bg-events.jpg") center/cover no-repeat;
+  padding: 45px 0;
+}
+.events h6 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 12px;
+  color: #fff;
+}
+
+.events__container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px auto;
+}
+
+.left__event {
+  position: relative;
+}
+.left__event .circle {
+  left: 0;
+  transform: translate(-40%, -50%);
+}
+.left__event .event__title {
+  right: 0;
+}
+
+.right__event {
+  position: relative;
+}
+.right__event .circle {
+  right: 0;
+  transform: translate(40%, -50%);
+}
+.right__event .event__title {
+  left: 0;
+  transform: scale(-1);
+}
+
+.left__event img, .right__event img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+  border-radius: 5px;
+}
+
+.event__title {
+  background: #000;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 24px;
+  font-family: "Kurale", serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 30px 20px;
+  writing-mode: vertical-lr;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.events__contacts {
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.events__contacts a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */
